@@ -833,8 +833,8 @@ class FormularioComponent {
             imgprev: ''
         };
         this.name = '';
-        this.imgprev = 'assets/img/box.png';
-        this.imgprevResgistro = 'assets/img/box.png';
+        this.imgprev = 'https://sam1dc.github.io/sam1dc.github.io-/assets/img/box.png';
+        this.imgprevResgistro = 'https://sam1dc.github.io/sam1dc.github.io-/assets/img/box.png';
         this.inventario = [];
     }
     ngOnInit() {
@@ -911,8 +911,8 @@ class FormularioComponent {
             this.boleanocompa = true;
             this.vistaform.emit(this.boleanocompa);
             this.inventarioInfo.reset(this.valoresIniciales);
-            this.imgprev = 'assets/img/box.png';
-            this.imgprevResgistro = 'assets/img/box.png';
+            this.imgprev = 'https://sam1dc.github.io/sam1dc.github.io-/assets/img/box.png';
+            this.imgprevResgistro = 'https://sam1dc.github.io/sam1dc.github.io-/assets/img/box.png';
             //variable limpiar edit recibida del agregar del navbar
             // this.imgprevResgistro = this.limpiandoImagenEdit;
         }
@@ -925,7 +925,7 @@ class FormularioComponent {
             e.preventDefault();
         }
         else {
-            if (this.imgprev == 'assets/img/box.png' || this.inventarioInfo.value.imgprev == '') {
+            if (this.imgprev == 'https://sam1dc.github.io/sam1dc.github.io-/assets/img/box.png' || this.inventarioInfo.value.imgprev == '') {
                 this.imgprev = this.inventario[this.editarForm].imgprev;
                 this.inventarioInfo.value.imgprev = this.inventario[this.editarForm].imgprev;
             }
@@ -939,7 +939,7 @@ class FormularioComponent {
             this.inventario[this.editarForm].imgprev = this.imgprev;
             // this.inventario[this.editarForm].check = this.inventarioInfo.value.check;
             // this.inventarioInfo.reset();
-            this.imgprev = 'assets/img/box.png';
+            this.imgprev = 'https://sam1dc.github.io/sam1dc.github.io-/assets/img/box.png';
         }
     }
     //funciones para validar
